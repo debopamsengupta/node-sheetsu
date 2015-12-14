@@ -4,7 +4,7 @@ Node JS module for using Sheetsu
 ## Getting Started
 * Install the module ```npm install sheetsu```
 * Example usage :
-```
+```javascript
 var Sheetsu = require('sheetsu');
 
 var test_url = 'YOUR_SHEETSU_API';
