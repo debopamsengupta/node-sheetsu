@@ -1,0 +1,25 @@
+{
+  "name": "sheetsu",
+  "version": "1.0.0",
+  "description": "Node JS client for Sheetsu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debopamsengupta/node-sheetsu.git"
+  },
+  "keywords": [
+    "sheetsu"
+  ],
+  "author": "Debopam Sengupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debopamsengupta/node-sheetsu/issues"
+  },
+  "homepage": "https://github.com/debopamsengupta/node-sheetsu#readme",
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
