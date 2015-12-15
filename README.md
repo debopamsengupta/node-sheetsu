@@ -1,4 +1,4 @@
-# node-sheetsu
+# node-sheetsu  ![Downloads](https://img.shields.io/npm/dm/sheetsu.svg)
 Node JS module for using Sheetsu
 
 ## Getting Started
