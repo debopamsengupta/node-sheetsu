@@ -1,6 +1,6 @@
 {
   "name": "sheetsu",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Node JS client for Sheetsu",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "url": "git+https://github.com/debopamsengupta/node-sheetsu.git"
   },
   "keywords": [
-    "sheetsu"
+    "sheetsu",
+    "sheet api",
+    "google sheet",
+    "sheet",
+    "spreadsheet",
+    "api"
   ],
   "author": "Debopam Sengupta",
   "license": "ISC",
@@ -20,6 +25,9 @@
   },
   "homepage": "https://github.com/debopamsengupta/node-sheetsu#readme",
   "dependencies": {
+    "bluebird": "^3.0.6",
+    "co": "^4.6.0",
+    "lodash": "^3.10.1",
     "request": "^2.67.0"
   }
 }

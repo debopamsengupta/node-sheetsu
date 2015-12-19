@@ -60,6 +60,33 @@ class Sheetsu {
             }
         });
     }
+
+    get(params) {
+        let _this = this;
+        return new Promise(function(resolve, reject) {
+            _this.getData(params, function(results){
+                resolve(results);
+            });
+        });
+    }
+
+    getAll() {
+        let _this = this;
+        return new Promise(function(resolve, reject) {
+            _this.getAllData(function(results){
+                resolve(results);
+            });
+        });
+    }
+
+    add(params) {
+        let _this = this;
+        return new Promise(function(resolve, reject) {
+            _this.addRow(params, function(results){
+                resolve(results);
+            });
+        });
+    }
 }
 
 module.exports = Sheetsu;
