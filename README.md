@@ -1,8 +1,8 @@
-# node-sheetsu  [![Downloads](https://img.shields.io/npm/dt/sheetsu.svg)](https://www.npmjs.com/package/sheetsu)
+# node-sheetsu [![Build Status](https://travis-ci.org/debopamsengupta/node-sheetsu.svg?branch=master)](https://travis-ci.org/debopamsengupta/node-sheetsu) [![Downloads](https://img.shields.io/npm/dt/sheetsu.svg)](https://www.npmjs.com/package/sheetsu)
 Node JS module for using Sheetsu
 
-## What's new (v1.1.0)
-* Supports Promises now. Use the ```get``` , ```getAll``` and ```add``` methods to use yield-ables.
+## What's new (v1.2.0)
+* Supports Promises & callbacks . Use the ```get``` , ```getAll``` and ```add``` methods to use both Promises and callbacks.
 
 ## Getting Started
 * Install the module ```npm install sheetsu```
@@ -26,21 +26,13 @@ co(function* () {
 
 ## Methods
 
-### getAllData (callback)
-* ```callback``` : function to be executed after the method
+### getAll ([callback])
+* ```callback (optional)``` : function to be executed after the method
 
-### getData (params, callback)
+### get (params, [callback])
 * ```params``` : Should include the field ```column_name``` to get data of the particular column
-* ```callback``` : function to be executed after the method
+* ```callback (optional)``` : function to be executed after the method
 
-### addRow (params, callback)
+### add (params, [callback])
 * ```params``` : Should include the row of information to add to the spreadsheet
-* ```callback``` : function to be executed after the method
-
-### getAll ()
-
-### get (params)
-* ```params``` : Should include the field ```column_name``` to get data of the particular column
-
-### add (params)
-* ```params``` : Should include the row of information to add to the spreadsheet
+* ```callback (optional)``` : function to be executed after the method
